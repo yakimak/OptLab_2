@@ -1,0 +1,61 @@
+check,entity,value,limit,violation,status
+supply,Склад W1,90.0,130.0,0.0,OK
+supply,Склад W2,110.0,110.0,0.0,OK
+supply,Склад W3,100.0,100.0,0.0,OK
+supply,Склад W4,90.0,90.0,0.0,OK
+demand,Магазин S1,60.0,60.0,0.0,OK
+demand,Магазин S2,70.0,70.0,0.0,OK
+demand,Магазин S3,50.0,50.0,0.0,OK
+demand,Магазин S4,80.0,80.0,0.0,OK
+demand,Магазин S5,60.0,60.0,0.0,OK
+demand,Магазин S6,70.0,70.0,0.0,OK
+route_capacity,Склад W1 -> Магазин S1,60.0,75.0,0.0,OK
+route_capacity,Склад W1 -> Магазин S2,30.0,68.0,0.0,OK
+route_capacity,Склад W1 -> Магазин S3,0.0,67.0,0.0,OK
+route_capacity,Склад W1 -> Магазин S4,0.0,71.0,0.0,OK
+route_capacity,Склад W1 -> Магазин S5,0.0,56.0,0.0,OK
+route_capacity,Склад W1 -> Магазин S6,0.0,66.0,0.0,OK
+route_capacity,Склад W2 -> Магазин S1,0.0,47.0,0.0,OK
+route_capacity,Склад W2 -> Магазин S2,40.0,69.0,0.0,OK
+route_capacity,Склад W2 -> Магазин S3,27.0,77.0,0.0,OK
+route_capacity,Склад W2 -> Магазин S4,0.0,83.0,0.0,OK
+route_capacity,Склад W2 -> Магазин S5,43.0,81.0,0.0,OK
+route_capacity,Склад W2 -> Магазин S6,0.0,51.0,0.0,OK
+route_capacity,Склад W3 -> Магазин S1,0.0,48.0,0.0,OK
+route_capacity,Склад W3 -> Магазин S2,0.0,63.0,0.0,OK
+route_capacity,Склад W3 -> Магазин S3,23.0,45.0,0.0,OK
+route_capacity,Склад W3 -> Магазин S4,17.0,82.0,0.0,OK
+route_capacity,Склад W3 -> Магазин S5,0.0,73.0,0.0,OK
+route_capacity,Склад W3 -> Магазин S6,60.0,60.0,0.0,OK
+route_capacity,Склад W4 -> Магазин S1,0.0,61.0,0.0,OK
+route_capacity,Склад W4 -> Магазин S2,0.0,76.0,0.0,OK
+route_capacity,Склад W4 -> Магазин S3,0.0,79.0,0.0,OK
+route_capacity,Склад W4 -> Магазин S4,63.0,63.0,0.0,OK
+route_capacity,Склад W4 -> Магазин S5,17.0,57.0,0.0,OK
+route_capacity,Склад W4 -> Магазин S6,10.0,58.0,0.0,OK
+nonnegativity,Склад W1 -> Магазин S1,60.0,0.0,0.0,OK
+nonnegativity,Склад W1 -> Магазин S2,30.0,0.0,0.0,OK
+nonnegativity,Склад W1 -> Магазин S3,0.0,0.0,0.0,OK
+nonnegativity,Склад W1 -> Магазин S4,0.0,0.0,0.0,OK
+nonnegativity,Склад W1 -> Магазин S5,0.0,0.0,0.0,OK
+nonnegativity,Склад W1 -> Магазин S6,0.0,0.0,0.0,OK
+nonnegativity,Склад W2 -> Магазин S1,0.0,0.0,0.0,OK
+nonnegativity,Склад W2 -> Магазин S2,40.0,0.0,0.0,OK
+nonnegativity,Склад W2 -> Магазин S3,27.0,0.0,0.0,OK
+nonnegativity,Склад W2 -> Магазин S4,0.0,0.0,0.0,OK
+nonnegativity,Склад W2 -> Магазин S5,43.0,0.0,0.0,OK
+nonnegativity,Склад W2 -> Магазин S6,0.0,0.0,0.0,OK
+nonnegativity,Склад W3 -> Магазин S1,0.0,0.0,0.0,OK
+nonnegativity,Склад W3 -> Магазин S2,0.0,0.0,0.0,OK
+nonnegativity,Склад W3 -> Магазин S3,23.0,0.0,0.0,OK
+nonnegativity,Склад W3 -> Магазин S4,17.0,0.0,0.0,OK
+nonnegativity,Склад W3 -> Магазин S5,0.0,0.0,0.0,OK
+nonnegativity,Склад W3 -> Магазин S6,60.0,0.0,0.0,OK
+nonnegativity,Склад W4 -> Магазин S1,0.0,0.0,0.0,OK
+nonnegativity,Склад W4 -> Магазин S2,0.0,0.0,0.0,OK
+nonnegativity,Склад W4 -> Магазин S3,0.0,0.0,0.0,OK
+nonnegativity,Склад W4 -> Магазин S4,63.0,0.0,0.0,OK
+nonnegativity,Склад W4 -> Магазин S5,17.0,0.0,0.0,OK
+nonnegativity,Склад W4 -> Магазин S6,10.0,0.0,0.0,OK
+objective,recomputed_vs_solver,1852.79,1852.79,0.0,OK
+overall,max_violation,0.0,1e-07,0.0,OK

@@ -1,0 +1,54 @@
+{
+  "variant": 1,
+  "student": "Якимов Максим Андреевич, Б24-517, № 31",
+  "n_warehouses": 4,
+  "n_stores": 6,
+  "total_supply": 430.0,
+  "total_demand": 390.0,
+  "base_cost": 1852.79,
+  "status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "max_violation": 0.0,
+  "feasible": true,
+  "supply_shadow": [
+    0.0,
+    0.7800000000000002,
+    1.6000000000000005,
+    1.29
+  ],
+  "supply_shadow_fd": [
+    0.0,
+    0.7799999999999727,
+    1.599999999999909,
+    1.2899999999999636
+  ],
+  "failed_route": [
+    "Склад W4",
+    "Магазин S4"
+  ],
+  "failure_cost": 1976.0800000000002,
+  "stress_transport_cost": 1739.52,
+  "stress_unmet": 47.00000000000001,
+  "greedy_cost": 1875.9899999999998,
+  "greedy_gap_percent": 1.2521656528802412,
+  "milp_cost": 1852.79,
+  "milp_gap_percent": 0.0,
+  "bottlenecks": [
+    {
+      "w": "Склад W3",
+      "s": "Магазин S6",
+      "flow": 60.0,
+      "cap": 60.0,
+      "shadow": 0.9299999999999997,
+      "fd": 0.9300000000000637
+    },
+    {
+      "w": "Склад W4",
+      "s": "Магазин S4",
+      "flow": 63.0,
+      "cap": 63.0,
+      "shadow": 1.5700000000000003,
+      "fd": 1.5699999999999363
+    }
+  ],
+  "seed": 10131
+}

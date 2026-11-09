@@ -1,0 +1,14 @@
+{
+  "seed": 10131,
+  "n_warehouses": 4,
+  "n_stores": 6,
+  "total_supply": 430.0,
+  "total_demand": 390.0,
+  "units": {
+    "flow": "ед. груза",
+    "cost": "у.е. за ед.",
+    "capacity": "ед.",
+    "supply_demand": "ед."
+  },
+  "note": "Синтетическая транспортная сеть; seed фиксирован."
+}

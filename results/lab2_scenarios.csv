@@ -1,0 +1,5 @@
+scenario,status,transport_cost,unmet_demand,feasible
+base,0,1852.79,0.0,True
+deficit,0,1869.95,0.0,True
+route_failure,0,1976.0800000000002,0.0,True
+stress,0,1739.52,47.0,True

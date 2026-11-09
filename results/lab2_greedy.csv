@@ -1,0 +1,3 @@
+method,cost,unmet_demand,feasible,gap_percent
+LP,1852.79,0.0,True,0.0
+greedy,1875.99,0.0,True,1.252

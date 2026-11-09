@@ -1,0 +1,3 @@
+warehouse,store,flow,capacity,shadow_price,finite_difference
+Склад W3,Магазин S6,60.0,60.0,0.93,0.93
+Склад W4,Магазин S4,63.0,63.0,1.57,1.57

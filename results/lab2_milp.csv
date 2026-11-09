@@ -1,0 +1,3 @@
+model,objective,status,gap_percent
+LP,1852.79,0,0.0
+MILP,1852.79,0,0.0
